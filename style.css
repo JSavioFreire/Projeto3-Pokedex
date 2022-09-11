@@ -1,0 +1,80 @@
+@charset "UTF-8";
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#box{
+    background-color: #DC0A2D;
+    width: 500px;
+    height: 600px;
+    margin: 50px auto;
+    position: relative;
+    padding: 30px;
+    box-shadow: 5px 5px 5px black;
+    border-radius: 20px;
+    border: 1px solid black;
+}
+#box .cima{
+    border-top: 2px solid white;
+    border-left: 2px solid white;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+}
+#box .cima .circulo{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background: radial-gradient(#28AAFE,#69c3ff);
+    border: 5px solid white;
+    outline: 1px solid black;
+    margin: 5px 15px;
+}
+#box .bolinha{
+    width: 10px;
+    height: 10px;
+    background-color: blue;
+    border-radius: 50%;
+    border: 2px solid black;
+    margin: 10px;
+    display: inline-block;
+}
+#box .verm{
+    background-color: red;
+}
+#box .amar{
+    background-color: yellow;
+}
+#box .verd{
+    background-color: green;
+}
+#box #tela{
+    height: 300px;
+    border-radius: 20px;
+}
+#box #telabranca{
+    background-color: white;
+    height: 100%;
+    text-align: center;
+    border-radius: 20px;
+    padding: 0 20px;
+}
+#box #telabranca #telinha{
+    background-color: black;
+    height: 220px;
+}
+#box #bt{
+    width: 120px;
+    height: 60px;
+    margin: 50px auto;
+    
+}
+#box #bt button{
+    width: 60px;
+    height: 60px;
+    margin-right: -4px;
+    border-radius: 20px;
+}
